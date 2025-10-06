@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary-orange: #EA6D27;
+    --color-secundary-white:#FFFFFF;
+    --color-secundary-dark:#101821;
+    --color-secundary-L_gray:#5C6574;
+    --color-alerts-green: #004E05;
+    --color-alerts-red:#770000
+}
