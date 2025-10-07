@@ -32,3 +32,45 @@ header{
     font-size: var(--font-button-size);
     text-decoration: none;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+
+.content-main{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    color: var(--color-secundary-dark);
+    width: 562px;
+
+}
+
+.highlighted-word{
+    color: var(--color-primary-orange);
+}
+
+.content-main p{
+    font-size: var(--font-body-size);
+    color: var(--color-secundary-L_gray);
+    font-family: var(--font-body);
+    width: 544px;
+    line-height: 30px; /*Espaçamento entre as linhas*/
+    
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
+
