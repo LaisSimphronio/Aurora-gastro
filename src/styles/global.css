@@ -6,7 +6,8 @@
 }
 
 :root{
-    --color-primary-orange: #EA6D27;
+    --color-primary-orange: #EA6D27; 
+    --color-primary-orange-10: rgba(234, 109, 39, 0.15);
     --color-secundary-white:#FFFFFF;
     --color-secundary-dark:#101821;
     --color-secundary-L_gray:#5C6574;
@@ -22,6 +23,7 @@
 
     --font-title: "David Libre", serif;
     --font-body: "Inter", sans-serif;
+
 
 }
 
@@ -41,3 +43,12 @@
 
 .btn-primary{
     background-color: var(--color-primary-orange);}
+
+
+
+h2{
+    font-family: var(--font-title);
+    font-size:var(--font-headline-h2-size) ;
+}
+
+
